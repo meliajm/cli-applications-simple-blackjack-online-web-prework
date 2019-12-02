@@ -25,7 +25,7 @@ def get_user_input
   gets.chomp.strip
 end
 
-def end_game(z
+def end_game(z)
   # code #end_game here
   
   puts "Sorry, you hit #{z}. Thanks for playing!"
@@ -80,6 +80,6 @@ def runner
     t = hit?(t)
     display_card_total(t)
   end
-  end_game 
+  end_game(t) 
 end
     
