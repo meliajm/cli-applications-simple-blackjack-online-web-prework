@@ -59,8 +59,9 @@ def hit?(card_total)
   # elsif a == nil
   else
     return_value = invalid_command
-    binding.pry
+    
   end
+  binding.pry
   return_value
 end
 
