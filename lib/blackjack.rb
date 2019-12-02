@@ -63,7 +63,8 @@ def hit?(card_total)
   # elsif a != 's' || a != 'h'
   # elsif a == nil
   else
-    return_value = invalid_command + prompt_user
+    return_value = invalid_command
+    prompt_user
     
   end
   binding.pry
