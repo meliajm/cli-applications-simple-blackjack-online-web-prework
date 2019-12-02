@@ -56,8 +56,7 @@ def hit?(card_total)
   # binding.pry
   if a == 'h'
     
-    sum = card_total + deal_card
-    sum
+    card_total += deal_card
   elsif a == 's'
     card_total
   # elsif a != 's' || a != 'h'
@@ -67,7 +66,7 @@ def hit?(card_total)
     prompt_user
     hit?(card_total)
   end
-  
+  card_total
   # return_value
 end
 
