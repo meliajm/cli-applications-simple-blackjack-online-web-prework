@@ -78,6 +78,6 @@ def runner(t)
   initial_round
   hit?(t)
   display_card_total(hit?(t))
-  if 
+   
 end
     
