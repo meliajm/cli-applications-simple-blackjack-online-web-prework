@@ -53,7 +53,7 @@ def hit?(card_total)
   # code hit? here
   prompt_user
   a = get_user_input
-  return_value = nil 
+  # return_value = nil 
   # binding.pry
   if a == 'h'
     
