@@ -72,7 +72,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(t)
+def runner
   # code runner here
   welcome
   t = initial_round
