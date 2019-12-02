@@ -66,7 +66,7 @@ def hit?(card_total)
     return_value = invalid_command
     
   end
-  # binding.pry
+  binding.pry
   return_value
 end
 
