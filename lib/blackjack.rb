@@ -54,23 +54,16 @@ def hit?(card_total)
   a = get_user_input
   
   if a == 'h'
-    
     card_total += deal_card
   elsif a == 's'
     card_total
-  # elsif a != 's' || a != 'h'
-  # elsif a == nil
+  
   else
     invalid_command
-    
     hit?(card_total)
   end
   card_total
   
-  # return_value = nil 
-  # # binding.pry
-  
-  # # return_value
 end
 
 
@@ -84,6 +77,7 @@ def runner(t)
   welcome
   initial_round
   hit?(t)
-  display_card_total(t)
+  display_card_total(hit?(t))
+  if 
 end
     
