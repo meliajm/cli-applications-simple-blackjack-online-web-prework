@@ -78,7 +78,11 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(t)
   # code runner here
+  welcome
+  initial_round
+  hit?(t)
+  display_card_total(t)
 end
     
