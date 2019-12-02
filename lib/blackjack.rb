@@ -54,17 +54,17 @@ def hit?(card_total)
   prompt_user
   a = get_user_input
   return_value = nil 
-  binding.pry
+  # binding.pry
   if a == 'h'
     
     sum = card_total + deal_card
-    return_value = sum
+    sum
   elsif a == 's'
-    return_value = card_total
+    card_total
   # elsif a != 's' || a != 'h'
   # elsif a == nil
   else
-    return_value = invalid_command
+    invalid_command
     prompt_user
     
   end
