@@ -27,9 +27,9 @@ end
 
 def end_game(z)
   # code #end_game here
-  if z > 21
-    puts "Sorry, you hit #{z}. Thanks for playing!"
-  end
+  
+  puts "Sorry, you hit #{z}. Thanks for playing!"
+
 end
 
 def initial_round
