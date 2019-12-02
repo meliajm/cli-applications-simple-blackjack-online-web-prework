@@ -76,7 +76,7 @@ def runner(t)
   # code runner here
   welcome
   t = initial_round
-  hit?(t)
+  until hit?(t)
   display_card_total(hit?(t))
    
 end
