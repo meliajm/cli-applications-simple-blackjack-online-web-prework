@@ -59,7 +59,7 @@ def hit?(card_total)
     
     sum = card_total + deal_card
     sum
-  elsifif a == 's'
+  elsif a == 's'
     card_total
   # elsif a != 's' || a != 'h'
   # elsif a == nil
