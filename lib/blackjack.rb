@@ -1,4 +1,5 @@
 require 'pry'
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -56,6 +57,7 @@ def hit?(card_total)
   # elsif a == nil
   else
     invalid_command
+    binding.pry
   end
   
 end
