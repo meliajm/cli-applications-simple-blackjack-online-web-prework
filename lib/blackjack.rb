@@ -69,7 +69,7 @@ def hit?(card_total)
     
   end
   
-  return_value
+  # return_value
 end
 
 
